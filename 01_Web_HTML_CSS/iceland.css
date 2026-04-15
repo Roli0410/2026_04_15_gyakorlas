@@ -28,7 +28,8 @@ h2 {
     color: #2c3e50;
     margin-bottom: 30px;
     padding-bottom: 10px;
-}
+    border-bottom: solid 1px #3498db ;
+}  
 
 /* Kártya stílusok */
 .card {
@@ -55,5 +56,12 @@ h2 {
 #forrasok a{
     color: #776e6e;
     font-style: italic;
-    
+    text-decoration: none;
+}
+
+#forrasok a:hover{
+    color:#3498db;
+}
+.card:hover{
+    width: 110%;
 }
